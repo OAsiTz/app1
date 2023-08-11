@@ -1,10 +1,12 @@
 import React from 'react';
-import {content,Footer,Header} from './func-components'
+import {Content,Footer,Header} from './func-components';
+import Calendar from './class-component';
 
 function App() {
   return (
     <>
-      <header/>
+      <Header/>
+      <p><center><Calendar/></center></p>
       <Content/>
       <Footer/>
     </>
