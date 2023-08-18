@@ -1,17 +1,15 @@
 import React from 'react';
 import {Content,Footer,Header} from './func-components';
 import Calendar from './class-component';
+import Banner from './banner'
+import { Calculator } from './calculator';
+import {EventData2} from './event-data'
 
-function App() {
+export default function App() {
   return (
     <>
-      <Header/>
-      <p><center><Calendar/></center></p>
-      <Content/>
-      <Footer/>
+    <EventData2/>
     </>
   )
    
 }
-
-export default App;
