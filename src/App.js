@@ -1,4 +1,4 @@
-// import React from 'react';
+ import React from 'react';
 // import {Content,Footer,Header} from './func-components';
 // import Calendar from './class-component';
 // import Banner from './banner'
@@ -10,7 +10,8 @@
 // import { userContext } from './context';
 // import Header2 from './context-header2';
 // import Content2 from './context-content2';
-import FormCheck from "./form-check";
+//import FormCheck from "./form-check";
+import FormValidation from "./form-validation";
 // import FormText from "./form-text";
 // import Router2 from "./router2";
 // import Router3 from "./router3";
@@ -18,6 +19,6 @@ import FormCheck from "./form-check";
 
 export default function App() {
   return (
-    <FormCheck/>
+    <FormValidation/>
   )
 }
